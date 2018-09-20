@@ -11,7 +11,7 @@ def reverse_each_word_collect(sentence)
   forwards = sentence.split(" ")
   backwards = [ ]
   toppings.collect do |words|
-    backwards << sentence.reverse
+    backwards << words.reverse
   end
   backwards.join(" ")
 end
