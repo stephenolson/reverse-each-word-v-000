@@ -7,10 +7,10 @@ def reverse_each_word(sentence)
   backwards.join(" ")
 end
 
-def reverse_each_word_map(sentence)
+def reverse_each_word_collect(sentence)
   forwards = sentence.split(" ")
   backwards = [ ]
-  toppings.map do |words|
+  toppings.collect do |words|
     backwards << sentence.reverse
   end
   backwards.join(" ")
