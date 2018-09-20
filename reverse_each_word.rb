@@ -9,6 +9,7 @@ end
 
 def reverse_each_word_map(sentence)
   forwards = sentence.split(" ")
+  backwards = [ ]
   toppings.map do |words|
     
   end
