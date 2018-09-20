@@ -7,6 +7,6 @@ def reverse_each_word(sentence)
   backwards.join(" ")
 end
 
-def reverse_each_word_2(sentence)
+def reverse_each_word_map(sentence)
   
 end
