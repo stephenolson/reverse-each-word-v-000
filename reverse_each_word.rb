@@ -12,7 +12,6 @@ def reverse_each_word_map(sentence)
   backwards = [ ]
   toppings.map do |words|
     backwards.push sentence.reverse
-    
   end
   
 end
