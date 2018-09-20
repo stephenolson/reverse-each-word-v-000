@@ -8,6 +8,7 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word_map(sentence)
+  
   toppings.map do |words|
     
   end
